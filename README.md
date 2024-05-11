@@ -3,6 +3,9 @@
 ## Descripción
 Bragi es una innovadora plataforma web y app móvil que revoluciona la manera en que los artistas comparten su talento y los clientes descubren servicios artísticos en la ciudad de Medellín. Con Bragi, los artistas pueden exhibir su trabajo y ofrecer una amplia gama de servicios creativos, desde pintura, escritura, hasta danza y música, a través de perfiles personalizados que destacan su arte y habilidades. Los clientes tienen la oportunidad única de explorar una variedad de opciones artísticas, respaldadas por una plataforma segura que utiliza tecnología blockchain para garantizar transacciones seguras y la protección de datos. Además, Bragi ofrece características innovadoras como comunidades de artistas, seguidores y contrataciones de sus servicios, creando un ecosistema dinámico, seguro, creativo y generador de experiencias.
 
+![image](https://github.com/ybedoyab/Bragi/assets/72664432/4bc1ef00-d3d6-4fcc-b2d3-f77eef5b7a9d)
+
+
 ## Problemática ❓
 Bragi aborda la falta de visibilidad que enfrentan los artistas en la ciudad de Medellín. A pesar de su talento y creatividad, muchos artistas luchan por encontrar oportunidades para mostrar su trabajo y llegar a un público más amplio. Esta falta de visibilidad limita su capacidad para generar ingresos y desarrollar sus carreras artísticas.
 
@@ -12,6 +15,9 @@ Para la implementación de la plataforma Bragi en Medellín, se propone utilizar
 - Identidad digital descentralizada
 - Almacenamiento descentralizado de datos
 - Interoperabilidad con criptomonedas
+
+![Screenshot_2024-05-10_23_09_27 1](https://github.com/ybedoyab/Bragi/assets/72664432/de2d602f-16a6-433c-921e-b08cd6ff0348)
+
 
 Estas características de ICP permiten a Bragi ofrecer una plataforma segura, transparente y escalable, que ayuda a abordar los desafíos en la promoción del arte en Medellín.
 
