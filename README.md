@@ -29,3 +29,26 @@ La base del modelo de negocio de Bragi se fundamenta en los siguientes aspectos 
 
 ## GitHub 🚀
 En nuestro repositorio de GitHub encontrarás la implementación del ICP en forma de backend o con un prototipo de frontend muy básico. La visualización de cómo funciona Bragi se encuentra en el siguiente enlace: [Visualización de Bragi en Figma](https://www.figma.com/proto/AmQPUAtlrZurNAtIAu6WhV/Bragi?node-id=72-1625&t=BnAcLXVRa0hBFj30-1&scaling=min-zoom&page-id=19%3A2664&starting-point-node-id=19%3A2666)
+
+## Prueba Bragi :D
+
+Pasos:
+
+1. Necesitas clonar este repositorio en tu maquina local con el siguiente comando: git clone https://github.com/ybedoyab/Bragi.git
+
+2. Posterior mente muevete a la carpeta Bragi (cd ./Bragi).
+
+3. Se requiere ejecutar luego el siguiente comando: rm -rf node_modules y posteriormente correr el comando npm install
+
+4. Corre el comando dfx start --background
+
+5. Luego has dfx deploy
+
+6. Se generarán varios links en el localhost para los canisters de front, back y internet_identity, dado que estamos usando una version de desarrollo requieres copiar el segundo link que se genera para internet_identity y compiarlo en el archivo del codigo ./Bragi/src/usuarios_frontend/src/components y modificar una linea del componente Menu.jsx como se muestra en la imagen 
+
+![image](https://github.com/ybedoyab/Bragi/assets/117226776/d5e213c7-9304-4521-b763-400853fecc07)
+
+
+En el espacio resaltado pega el link que te mencioné anteriormente.
+
+Ya deberías poder consultar el front_end de la aplicación (por medio de cualquiera de los links que se generan) y consultar el prototipo
