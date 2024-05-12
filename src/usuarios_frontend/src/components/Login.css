@@ -1,0 +1,42 @@
+.login-content{
+    background-color: #EEDBC4;
+    display: flex;
+    justify-content: space-between;
+    .content-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        .text-container{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+        img{
+            margin: 0;
+        }
+        h3{
+            font-size: 2.5rem;
+            font-weight: lighter;
+        }
+        .connect-button{
+            background-color: #101828;
+            color: white;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            border-radius: 100px;
+        }
+    }
+    }
+    .img-container{
+        img{
+        max-width: fit-content;
+        max-height: fit-content;
+        }
+    }
+}

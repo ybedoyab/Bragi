@@ -1,8 +1,17 @@
+import './Home.css'
+import Background from '../../public/background.png'
 const Home = () => {
   
   return (
-    <section className="mt-5 text-center">
-      <h1>Bienvenido al Sistema</h1>
+    <section className="header-container">
+      <div className='img-container'>
+        <img className='bg-img' src={Background} alt="" />
+      </div>
+      <div className='content-container'>
+      <h1>Bienvenido a Bragi</h1>
+      <h2>Descubre, conecta, crea</h2>
+      </div>
+      
     </section>
   )
 }

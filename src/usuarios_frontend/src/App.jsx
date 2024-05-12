@@ -1,5 +1,5 @@
 import  Menu  from './components/Menu';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Style.css'
 function App(){
     return(
         <div className='contanier' >

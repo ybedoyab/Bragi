@@ -1,0 +1,34 @@
+.nav-bar-main{
+    background-color: #F0F2FA;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .nav-container{
+        padding: 1rem 3rem;
+        color: black;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        .items-nav{
+            list-style: none;
+            display: flex;
+            gap: 5rem;
+            .nav-item{
+                a{
+                    text-decoration: none;
+                    color: #101828;
+                }    
+            }        
+        }
+        .login-section{
+            background-color: #101828;
+            padding: 1rem 2rem;
+            border-radius: 100px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

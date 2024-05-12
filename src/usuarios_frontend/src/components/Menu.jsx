@@ -9,7 +9,8 @@ import Users from "./Users";
 import UserCreate from "./UserCreate";
 import Login from "./Login";
 import * as usuarios_backend from "declarations/usuarios_backend";
-
+import './Menu.css'
+import BragiLogo from '../../public/LogoHorizontal.png'
 // import Programas from "./Programas";
 // import Alumnos from "./Alumnos";
 // import AreaNueva from "./AreaNueva";
@@ -53,12 +54,10 @@ const Menu = () => {
   onElementAvailable(".connect-button", () => {
     const btn = Array.from(document.getElementsByClassName('connect-button'));
     const custom_style={
-        "background-color": "blue",
-        "font-size": "17px",
     }
     Object.assign(btn[0].style,custom_style);
-    if ( btn[0].textContent == 'Connect' || btn[0].textContent == 'Conectar II')
-        btn[0].textContent = 'Conectar II' ;
+    if ( btn[0].textContent == 'Connect' || btn[0].textContent == 'Iniciar Sesion con II')
+        btn[0].textContent = 'Iniciar Sesion con II' ;
     else
         btn[0].textContent = 'Desconectar II' ;
 
@@ -68,12 +67,12 @@ const Menu = () => {
   
   return (
         <BrowserRouter>
-            <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <nav className="nav-bar-main">
         
         { principal ? ( 
-            <div className="container-fluid">
+            <div className="nav-container">
                 
-                    <Link to='/' className="navbar-brand">Sistema</Link>
+                    <Link to='/' className="navbar-brand"><img src={BragiLogo} alt="" /></Link>
                     <Link to='/nuevo-usuario'className="navbar-brand" >Nuevo</Link>
                     <Link to='/usuarios'className="navbar-brand" id="btnUserList">Usuarios</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,20 +95,27 @@ const Menu = () => {
             </div>
         )
         : ( 
-            <div className="container-fluid">
-                <a className="navbar-brand" href="#">Sistema</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <div className="nav-container">
+                <Link to='/' className="navbar-brand"><img src={BragiLogo} alt="" /></Link>
+                <div>
+                    <ul className="items-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#"></a>
+                            <Link to='/' className="navbar-brand">Inicio</Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link to='/' className="navbar-brand">Bragi</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to='/' className="navbar-brand">Artistas</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to='/' >Comunidades</Link>
                         </li>
                     </ul>
-                    <span className="fs-6 text" style={{ color: "white", marginRight: "5px"}}>Inicia sesión</span>
-                    <Link to='/login' className="navbar-brand">Log in</Link>
-
+                    
+                </div>
+                <div className="login-section">
+                    <Link to='/login' className="navbar-brand">Conectarme con internet identity</Link>
                 </div>
             </div>
         )}
