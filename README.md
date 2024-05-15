@@ -30,7 +30,7 @@ La base del modelo de negocio de Bragi se fundamenta en los siguientes aspectos 
 ## GitHub 🚀
 En nuestro repositorio de GitHub encontrarás la implementación del ICP en forma de backend o con un prototipo de frontend muy básico. La visualización de cómo funciona Bragi se encuentra en el siguiente enlace: [Visualización de Bragi en Figma](https://www.figma.com/proto/AmQPUAtlrZurNAtIAu6WhV/Bragi?node-id=72-1625&t=BnAcLXVRa0hBFj30-1&scaling=min-zoom&page-id=19%3A2664&starting-point-node-id=19%3A2666)
 
-## Prueba Bragi :D
+## Prueba Bragi 😸
 
 Pasos:
 
@@ -39,7 +39,7 @@ Pasos:
 
 git clone https://github.com/ybedoyab/Bragi.git
 ```
-2. Posterior mente muevete a la carpeta 'Bragi':
+2. Posteriormente muevete a la carpeta 'Bragi':
 ```bash
 
 cd ./Bragi
@@ -50,7 +50,7 @@ cd ./Bragi
 rm -rf node_modules
 ```
 
-4.  posteriormente correr el comando
+4.  Posteriormente correr el comando:
 
 ```bash
 npm install
