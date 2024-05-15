@@ -34,17 +34,41 @@ En nuestro repositorio de GitHub encontrarás la implementación del ICP en form
 
 Pasos:
 
-1. Necesitas clonar este repositorio en tu maquina local con el siguiente comando: git clone https://github.com/ybedoyab/Bragi.git
+1. Necesitas clonar este repositorio en tu maquina local con el siguiente comando:
+```bash
 
-2. Posterior mente muevete a la carpeta Bragi (cd ./Bragi).
+git clone https://github.com/ybedoyab/Bragi.git
+```
+2. Posterior mente muevete a la carpeta 'Bragi':
+```bash
 
-3. Se requiere ejecutar luego el siguiente comando: rm -rf node_modules y posteriormente correr el comando npm install
+cd ./Bragi
+```
 
-4. Corre el comando dfx start --background
+3. Se requiere ejecutar luego el siguiente comando:  
+```bash
+rm -rf node_modules
+```
 
-5. Luego has dfx deploy
+4.  posteriormente correr el comando
 
-6. Se generarán varios links en el localhost para los canisters de front, back y internet_identity, dado que estamos usando una version de desarrollo requieres copiar el segundo link que se genera para internet_identity y compiarlo en el archivo del codigo ./Bragi/src/usuarios_frontend/src/components y modificar una linea del componente Menu.jsx como se muestra en la imagen 
+```bash
+npm install
+```
+
+5. Corre el siguiente comando:
+
+```bash
+dfx start --background
+```
+
+6. Luego escribe: 
+
+```bash
+dfx deploy
+```
+
+7. Se generarán varios links en el localhost para los canisters de front, back y internet_identity, dado que estamos usando una version de desarrollo requieres copiar el segundo link que se genera para internet_identity y compiarlo en el archivo del codigo ./Bragi/src/usuarios_frontend/src/components y modificar una linea del componente Menu.jsx como se muestra en la imagen 
 
 ![image](https://github.com/ybedoyab/Bragi/assets/117226776/d5e213c7-9304-4521-b763-400853fecc07)
 
