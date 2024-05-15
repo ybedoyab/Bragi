@@ -28,7 +28,7 @@ La base del modelo de negocio de Bragi se fundamenta en los siguientes aspectos 
 - **Publicidad y patrocinios**: Bragi explorará la inclusión de espacios publicitarios y oportunidades de patrocinio dentro de la plataforma.  
 
 ## GitHub 🚀
-En nuestro repositorio de GitHub encontrarás la implementación del ICP en forma de backend o con un prototipo de frontend muy básico. La visualización de cómo funciona Bragi se encuentra en el siguiente enlace: [Visualización de Bragi en Figma](https://www.figma.com/proto/AmQPUAtlrZurNAtIAu6WhV/Bragi?node-id=72-1625&t=BnAcLXVRa0hBFj30-1&scaling=min-zoom&page-id=19%3A2664&starting-point-node-id=19%3A2666)
+En nuestro repositorio de GitHub encontrarás la implementación del ICP en forma de backend o con un prototipo de frontend muy básico. La visualización de cómo funciona Bragi se encuentra en el siguiente enlace: [Visualización de Bragi en Figma](https://www.figma.com/proto/AmQPUAtlrZurNAtIAu6WhV/Bragi?node-id=19-2666&t=BnAcLXVRa0hBFj30-1&scaling=scale-down-width&page-id=19%3A2664&starting-point-node-id=19%3A2666&hotspot-hints=0&hide-ui=1)
 
 ## Prueba Bragi 😸
 
