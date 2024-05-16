@@ -90,6 +90,6 @@ dfx start --background
 dfx deploy
 ```
 
-7. Se generarán varios links en el localhost para los canisters de front, back y internet_identity, dado que estamos usando una version de desarrollo requieres copiar el segundo link que se genera para internet_identity y compiarlo en el archivo del codigo ./Bragi/src/usuarios_frontend/src/components y modificar una linea del componente Menu.jsx como se muestra en la imagen 
+7. Se generarán varios links en el localhost para los canisters de front, back y internet_identity, dado que estamos usando una version de desarrollo requieres copiar el segundo link que se genera para internet_identity y compiarlo en el archivo del codigo ./Bragi/src/usuarios_frontend/src/components y modificar la línea 142 del componente Menu.jsx como se muestra en la imagen 
 
 ![image](https://github.com/ybedoyab/Bragi/assets/117226776/d5e213c7-9304-4521-b763-400853fecc07)
