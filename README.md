@@ -54,6 +54,11 @@ sudo apt-get -y install podman
 sudo apt install build-essential clang  libssl-dev pkg-config libclang-dev
 ```
 
+5. Finalmente, ejecuta el siguiente comando y abre una nueva terminal.
+```bash
+export PATH="/home/codespace/bin:$PATH"
+```
+
 ### ¿Cómo clonar el repositorio?
 1. Para clonar el repositorio, deberás correr el siguiente comando en tu máquina local:
 ```bash
