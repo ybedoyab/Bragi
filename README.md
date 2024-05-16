@@ -32,38 +32,50 @@ En nuestro repositorio de GitHub encontrarás la implementación del ICP en form
 
 ## Prueba Bragi 😸
 
-Pasos:
-
-1. Necesitas clonar este repositorio en tu maquina local con el siguiente comando:
+### **Dependencias necesarias:**
+1. **Instalar WSL:** Si estás usando Windows, debes instalar el WSL (Windows Subsystem for Linux) para que todo funcione correctamente, a través del siguiente comando en la consola:
 ```bash
+wsl --install
+```
 
+2. **Instalar DFX:**
+```bash
+sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+```
+
+3. **Instalar Podman:
+```bash
+sudo apt-get update
+sudo apt-get -y install podman
+```
+
+### ¿Cómo clonar el repositorio?
+1. Para clonar el repositorio, deberás correr el siguiente comando en tu máquina local:
+```bash
 git clone https://github.com/ybedoyab/Bragi.git
 ```
-2. Posteriormente muevete a la carpeta 'Bragi':
-```bash
 
+2. Posteriormente, debes irte a la carpeta 'Bragi':
+```bash
 cd ./Bragi
 ```
 
-3. Se requiere ejecutar luego el siguiente comando:  
+3. Para que todo funcione correctamente, deberás ejecutar el siguiente comando:  
 ```bash
 rm -rf node_modules
 ```
 
-4.  Posteriormente correr el comando:
-
+4.  Después, deberás correr el siguiente comando:
 ```bash
 npm install
 ```
 
-5. Corre el siguiente comando:
-
+5. Después, deberás inicializar el DFX con el siguiente comando:
 ```bash
 dfx start --background
 ```
 
-6. Luego escribe: 
-
+6. Finalmente, escribe este comando: 
 ```bash
 dfx deploy
 ```
@@ -71,8 +83,3 @@ dfx deploy
 7. Se generarán varios links en el localhost para los canisters de front, back y internet_identity, dado que estamos usando una version de desarrollo requieres copiar el segundo link que se genera para internet_identity y compiarlo en el archivo del codigo ./Bragi/src/usuarios_frontend/src/components y modificar una linea del componente Menu.jsx como se muestra en la imagen 
 
 ![image](https://github.com/ybedoyab/Bragi/assets/117226776/d5e213c7-9304-4521-b763-400853fecc07)
-
-
-En el espacio resaltado pega el link que te mencioné anteriormente.
-
-Ya deberías poder consultar el front_end de la aplicación (por medio de cualquiera de los links que se generan) y consultar el prototipo
