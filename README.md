@@ -43,10 +43,15 @@ wsl --install
 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
 ```
 
-3. **Instalar Podman:
+3. **Instalar Podman:**
 ```bash
 sudo apt-get update
 sudo apt-get -y install podman
+```
+
+4. **DFX**: Para evitar errores al hacer deploy con dfx, corre el siguiente comando:
+```bash
+sudo apt install build-essential clang  libssl-dev pkg-config libclang-dev
 ```
 
 ### ¿Cómo clonar el repositorio?
